@@ -22,3 +22,17 @@ t = float(input())
 si = (p * r * t) / 100
 
 print(si)
+
+
+
+
+n = int(input())
+
+rev = 0
+
+while n > 0:
+    digit = n % 10
+    rev = rev * 10 + digit
+    n = n // 10
+
+print(rev)
