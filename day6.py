@@ -1,3 +1,6 @@
+
+#functions
+
 def add():
     n1= int(input("Enter first number: "))
     n2= int(input("Enter second number: "))
@@ -10,3 +13,19 @@ def add():
 
 result = add()
 print("Result: ", result[2])
+
+def profile(fname, lname):
+    print("First name: ", fname)
+    print("Last name: ", lname)
+
+profile= profile("John", "Doe")
+
+#default values
+def city(name="nagpur"):
+    print("City: ", name)
+
+city()
+city("Mumbai")
+
+
+
