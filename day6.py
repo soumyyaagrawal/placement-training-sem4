@@ -28,4 +28,9 @@ city()
 city("Mumbai")
 
 
+#solved hackerrank questions 1-6
+
+
+
+
 
