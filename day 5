@@ -1,0 +1,8 @@
+print("prashantjha777".isalnum())
+print("prashantjha".isalpha())
+print("777f".isdigit())
+print("sdsdsdsd".islower())
+print("SDSDSDSD".isupper())
+print("My Name Is Prashant".istitle())
+print(''.istitle())
+print(''.isspace())
